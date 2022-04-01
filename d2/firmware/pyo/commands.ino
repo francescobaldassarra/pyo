@@ -330,7 +330,7 @@ void translateIR() // takes action based on IR code received
 
 
       for (pos = 0; pos <= 120; pos += 1) {   //home
-        Mright.write(pos);
+        Mfront.write(pos);
         delay(3);
       }
 
